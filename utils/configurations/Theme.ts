@@ -1,0 +1,25 @@
+
+
+export const THEME = {
+  background: '#000',
+  second_layer: "#1D1D1D",
+  third_layer: "#2E2E2E",
+  fourth_layer: "#7D7D7D",
+  inverse: "#fff",
+  primary_color: "#000",
+  secondary_color: "#F7D9A1",
+  primary_text: '#000',
+  secondary_text: '#fff',
+  spacing_small: 4,
+  spacing_medium: 8,
+  spacing_large: 12,
+  spacing_extra_large: 16,
+  spacing_super_large: 20,
+  border_slim: 1,
+  border_medium: 2,
+  border_thick: 4,
+  round: "50%",
+  rounded: 25,
+  boldness_standard: 200,
+  boldness_thick: 500,
+};

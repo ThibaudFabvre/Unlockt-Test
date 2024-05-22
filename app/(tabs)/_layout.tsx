@@ -1,34 +1,36 @@
 import { Tabs } from 'expo-router';
 import React from 'react';
 
-import { TabBarIcon } from '@/components/navigation/TabBarIcon';
-import { Colors } from '@/constants/Colors';
-import { useColorScheme } from '@/hooks/useColorScheme';
+import { Icon } from '@/components/atoms/Icon';
+import { THEME } from '@/utils/configurations/Theme';
 
 export default function TabLayout() {
-  const colorScheme = useColorScheme();
 
   return (
     <Tabs
-      screenOptions={{
-        tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
+      screenOptions={({route}) => ({
+
+        tabBarStyle: { height: 100, display: route.name === 'subscription' ? 'none' : 'flex' },
+        tabBarItemStyle: { justifyContent: 'center', paddingBottom: 24},
+        tabBarLabelPosition: 'below-icon',
+        tabBarActiveTintColor: THEME.inverse,
         headerShown: false,
-      }}>
+      })}>
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Home',
+          title: 'Micro',
           tabBarIcon: ({ color, focused }) => (
-            <TabBarIcon name={focused ? 'home' : 'home-outline'} color={color} />
+            <Icon name={focused ? 'home' : 'home-outline'} color={color} />
           ),
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="subscription"
         options={{
-          title: 'Explore',
+          title: 'Get pro',
           tabBarIcon: ({ color, focused }) => (
-            <TabBarIcon name={focused ? 'code-slash' : 'code-slash-outline'} color={color} />
+            <Icon name={focused ? 'code-slash' : 'code-slash-outline'} color={color} />
           ),
         }}
       />

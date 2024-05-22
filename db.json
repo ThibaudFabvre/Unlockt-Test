@@ -1,0 +1,27 @@
+{
+
+    "profiles": [
+        { "name": "Autotune", "categories":[], "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Root_Thumm_20100703_Japan_Expo_05.jpg/220px-Root_Thumm_20100703_Japan_Expo_05.jpg" },
+        { "name": "Drake", "categories":["rap"], "imageUrl": "https://imageio.forbes.com/specials-images/imageserve/6626b83481a43da5f422da86/Drake-s-Till-Death-Do-Us-Part-Rap-Battle-Event/0x0.jpg?crop=3224,1814,x0,y124,safe&height=400&width=711&fit=bounds" },
+        { "name": "Robot", "categories":[], "imageUrl": "https://cdn-tam.ouest-france.fr/media/cache/thumb_400/assets/featured/robot-explication-tete-a-modeler-du-mot-robot.png" },
+        { "name": "Effect Name"  },
+        { "name": "Effect Name"  },
+        { "name": "Effect Name"  },
+        { "name": "Effect Name"  },
+        { "name": "Effect Name"  },
+        { "name": "Effect Name"  },
+        { "name": "Effect Name"  },
+        { "name": "Effect Name"  },
+        { "name": "Effect Name"  },
+        { "name": "Effect Name"  },
+        { "name": "Effect Name"  },
+        { "name": "Effect Name"  },
+        { "name": "Effect Name"  },
+        { "name": "Effect Name"  },
+        { "name": "Effect Name"  },
+        { "name": "Effect Name"  },
+        { "name": "Effect Name"  },
+        { "name": "Effect Name"  }
+
+    ]
+  }
